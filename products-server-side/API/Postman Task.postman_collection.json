@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "9428088a-6648-430b-a812-9da40de41dba",
+		"name": "Postman Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Faq",
+			"item": [
+				{
+					"name": "FAQ",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://avanexa.in/brandmax/api/faq/list_faq",
+							"protocol": "https",
+							"host": [
+								"avanexa",
+								"in"
+							],
+							"path": [
+								"brandmax",
+								"api",
+								"faq",
+								"list_faq"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "FAQ Category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://avanexa.in/brandmax/api/faq/list_faq_category",
+							"protocol": "https",
+							"host": [
+								"avanexa",
+								"in"
+							],
+							"path": [
+								"brandmax",
+								"api",
+								"faq",
+								"list_faq_category"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "Category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://avanexa.in/brandmax/api/product/list_category",
+							"protocol": "https",
+							"host": [
+								"avanexa",
+								"in"
+							],
+							"path": [
+								"brandmax",
+								"api",
+								"product",
+								"list_category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Brands",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://avanexa.in/brandmax/api/product/list_brands",
+							"protocol": "https",
+							"host": [
+								"avanexa",
+								"in"
+							],
+							"path": [
+								"brandmax",
+								"api",
+								"product",
+								"list_brands"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Models",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://avanexa.in/brandmax/api/product/list_models",
+							"protocol": "https",
+							"host": [
+								"avanexa",
+								"in"
+							],
+							"path": [
+								"brandmax",
+								"api",
+								"product",
+								"list_models"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://avanexa.in/brandmax/api/product/list_products",
+							"protocol": "https",
+							"host": [
+								"avanexa",
+								"in"
+							],
+							"path": [
+								"brandmax",
+								"api",
+								"product",
+								"list_products"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
